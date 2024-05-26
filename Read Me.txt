@@ -1,0 +1,16 @@
+#Micro gesture classification model training on images using CNN 
+How to execute:
+
+1.The study is uploaded in two .ipynb files
+2.Model training file  001473021_Training.ipynb for model training (Specify drive path inside the code for saving epoch)
+3. Test file  001473021_Test.ipyn for Testing model (Specify the epoch path saved by training model in the code)
+
+*In the test file you can define the path of the checkpoint. Here 36th epoch is used. (# Load model
+PATH_SAVE ='/content/drive/MyDrive/training/chekpoint_Epoch_36.pth' #The saved path of saved epoch)
+*V100 or A100 or T4 GPU with high RAM Speed is recommended
+*Most of the processes are given an comment in the code
+*The dataset training folder with 32 folders (Classes) inside should be uploaded in google drive/ device drive (if the alternate loading used)
+*training dataset folder should be mounted in google collab
+* If google collab not used the data set path should be defined while data onboarding
+
+N.B.: Alternate code for loading data (if not in google drive) is commented in the code. 
